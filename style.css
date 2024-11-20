@@ -1,0 +1,50 @@
+#task {
+    border: none;
+    border-bottom: 3px solid black;
+    width: 50%;
+    font-size: x-large;
+    outline: none;
+}
+
+#submit {
+    width: 15%;
+    height: 30px;
+    margin-left: 2rem;
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 30px;
+    width: 40px;
+    margin-right: 1rem;
+
+}
+
+#done li {
+    background-color: rgba(10, 248, 10, 0.747); 
+    margin-left: 10rem;
+}
+
+#not li {
+    background-color: rgba(255, 0, 0, 0.795);
+    margin-left: 10rem;
+}
+
+li {
+    display: flex;
+    justify-content:space-between;
+    align-content: flex-end;
+    margin: 20px 0px;
+    height: 30px;
+    width: 60rem;
+    font-size:larger;
+    
+}
+
+body {
+    margin: 5rem;
+    text-align: center;
+}
+
